@@ -37,12 +37,27 @@ https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?i
 
 
 
+## Step 2:
+###### Set up Raspberry Pi:
+
+## Step 3:
+###### Set up VNC server:
+
+## Step 4:
+###### Make sure water flow sensor works properly (include coding):
+
+## Step 5:
+###### Make sure light bulb works properly (include coding):
+
+## Step 6:
+###### Make sure LCD screen works properly (include coding):
+
+## Step 7:
+###### clearning up the data every minight (include coding):
 
 
-
-
-
-
+## Step 8:
+###### Sending data into Power BI dataset and create a real-time bashboard (include coding):
 
 
 
