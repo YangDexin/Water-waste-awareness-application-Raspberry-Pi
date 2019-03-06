@@ -6,13 +6,13 @@ In this project, I need to set up the Raspberry Pi, water flow sensors and wirel
 ## Why we need to Conserve Water? 
 It minimizes the effects of drought and water shortages. Even though our need for fresh water sources is always increasing because of population and industry growth, the supply we have stays constant. Even though water eventually returns to Earth through the water cycle, it's not always returned to the same spot, or in the same quantity and quality. By reducing the amount of water we use, we can better protect against future drought years.It helps to preserve our environment. Water conservation requires forethought and effort, but every little bit helps. Don't think that what you do does not matter. We can all make changes in our lifestyles to reduce our water usage.
 
-
+## A basic design diagram:
 
 <img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src="https://user-images.githubusercontent.com/18043807/53911363-07baa080-400b-11e9-9e14-9e8d38eafb2f.png">
 
 
-##Step 1:
-Get all the equimpent for Amazon:
+## Step 1:
+###### Get all the equimpent for Amazon:
 
 1. CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit:
 https://www.amazon.ca/gp/product/B07BCC8PK7/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1
@@ -29,6 +29,24 @@ https://www.amazon.ca/RoboJax-LCD1602-Screen-Character-Interface/dp/B071WJ2S4K/r
 You may not need this:
 5. 120pcs Breadboard Jumper:
 https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
