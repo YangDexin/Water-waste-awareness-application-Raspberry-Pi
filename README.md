@@ -1,9 +1,9 @@
-### Water-waste-awareness-application-Raspberry-Pi
-Introduction: 
+# Water-waste-awareness-application-Raspberry-Pi
+##Introduction: 
 
 In this project, I need to set up the Raspberry Pi, water flow sensors and wirelessly collect water usage data. Then, based on the usage data the light bulb should change the lighting colour. The changing light colour will reflect the water usage for that day, which will make the residents aware and more responsible for their usages.
 
-Motivition: 
+##Motivition: 
 
 
 
@@ -12,7 +12,7 @@ Motivition:
 
 
 ##Step 1:
-#Get all the equimpent for Amazon:
+Get all the equimpent for Amazon:
 
 1. CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit:
 https://www.amazon.ca/gp/product/B07BCC8PK7/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1
