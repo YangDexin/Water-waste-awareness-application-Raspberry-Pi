@@ -34,18 +34,24 @@ https://www.amazon.ca/RoboJax-LCD1602-Screen-Character-Interface/dp/B071WJ2S4K/r
 https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
 ## Step 2:
-###### Set up Raspberry Pi:
+###### ** ** Set up Raspberry Pi:
+There is a detailed video shows how to set up a Raspberry Pi:[3] 
+https://www.youtube.com/watch?v=juHoJYX86Dg
+
+When you start to buy a new Raspberry Pi, I do recommend using an SD card with a minimum capacity of 8GB. Then Using a computer with an SD card reader, visit the this page(https://www.raspberrypi.org/downloads/) to download Raspbian which is the Raspberry Pi official operating system
+
 <p align="center">
 <img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src=https://user-images.githubusercontent.com/18043807/53994990-9c470080-40e8-11e9-8cb9-208ffc056e68.jpeg>
 </p>
 
-
-
-
-
-
 ## Step 3:
 ###### Set up VNC server:
+
+
+
+
+
+
 
 ## Step 4:
 ###### Make sure water flow sensor works properly (include coding):
@@ -75,3 +81,4 @@ https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?i
 #Reference:
 [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
 [2] Benefits of Water Conservation: https://www.thebalancesmb.com/conservation-efforts-why-should-we-save-water-3157877
+[3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
