@@ -2,6 +2,7 @@
 ## Introduction: 
 
 In this project, I need to set up the Raspberry Pi, water flow sensors and wirelessly collect water usage data. Then, based on the usage data the light bulb should change the lighting colour. The changing light colour will reflect the water usage for that day, which will make the residents aware and more responsible for their usages.
+After that, I will show you how to create a Power BI Streaming Real Time Dashboards.
 
 ## Why we need to Conserve Water?
 https://www.youtube.com/watch?v=paVt_WZJ0B8 [1]
