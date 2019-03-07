@@ -15,7 +15,7 @@ It minimizes the effects of drought and water shortages. Even though our need fo
 
 
 ## Step 1:
-###### Get all the equimpent for Amazon:
+## Get all the equimpent for Amazon:
 
 1. CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit:
 https://www.amazon.ca/gp/product/B07BCC8PK7/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1
@@ -34,7 +34,7 @@ https://www.amazon.ca/RoboJax-LCD1602-Screen-Character-Interface/dp/B071WJ2S4K/r
 https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
 ## Step 2:
-###### ** ** Set up Raspberry Pi:
+## Set up the Raspberry Pi:
 There is a detailed video shows how to set up a Raspberry Pi:[3] 
 https://www.youtube.com/watch?v=juHoJYX86Dg
 
@@ -45,7 +45,18 @@ When you start to buy a new Raspberry Pi, I do recommend using an SD card with a
 </p>
 
 ## Step 3:
-###### Set up VNC server:
+## Set up VNC server:
+Sometimes it is not convenient to work directly on the Raspberry Pi. Maybe you would like to work on it from another device by remote control.
+VNC is a graphical desktop sharing system that allows you to remotely control the desktop interface of one computer (running VNC Server) from another computer or mobile device (running VNC Viewer).
+
+### Enabling VNC Server
+On your Raspberry Pi, run the following commands to make sure you have the latest version of VNC Connect:
+
+sudo apt-get update
+sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+
+Now enable VNC Server. You can do this graphically or at the command line.
+
 
 
 
