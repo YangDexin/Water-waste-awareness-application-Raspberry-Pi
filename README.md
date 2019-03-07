@@ -32,13 +32,16 @@ https://www.amazon.ca/RoboJax-LCD1602-Screen-Character-Interface/dp/B071WJ2S4K/r
 5. 120pcs Breadboard Jumper:
 https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
-
-
-
-
-
 ## Step 2:
 ###### Set up Raspberry Pi:
+<p align="center">
+![wechatimg147](https://user-images.githubusercontent.com/18043807/53994990-9c470080-40e8-11e9-8cb9-208ffc056e68.jpeg)
+</p>
+
+
+
+
+
 
 ## Step 3:
 ###### Set up VNC server:
