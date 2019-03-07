@@ -35,7 +35,7 @@ https://www.amazon.ca/gp/product/B01C84WKN0/ref=ppx_yo_dt_b_asin_title_o00_s00?i
 ## Step 2:
 ###### Set up Raspberry Pi:
 <p align="center">
-![wechatimg147](https://user-images.githubusercontent.com/18043807/53994990-9c470080-40e8-11e9-8cb9-208ffc056e68.jpeg)
+<img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src=https://user-images.githubusercontent.com/18043807/53994990-9c470080-40e8-11e9-8cb9-208ffc056e68.jpeg>
 </p>
 
 
