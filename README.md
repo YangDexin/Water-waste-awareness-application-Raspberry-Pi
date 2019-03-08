@@ -62,9 +62,16 @@ Now enable VNC Server. You can do this graphically or at the command line.
 <img width="677" alt="screen shot 2019-03-08 at 10 24 38 am" src="https://user-images.githubusercontent.com/18043807/54047692-90147f00-418c-11e9-83be-e485c5c788cd.png">
 </p>
 
+On your Raspberry Pi, run the following commands to find **your IP address**:
+```ruby
+sudo ifconfig
+```
 
+<p align="center">
+<img width="392" alt="screen shot 2019-03-08 at 10 30 39 am" src="https://user-images.githubusercontent.com/18043807/54048008-69a31380-418d-11e9-8c67-3c5336c7649b.png">
+</p>
 
-
+For testing, you can connect to Raspberry Pi by using your IP address to see whether it works or not.
 
 
 ## Step 4:
