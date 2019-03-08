@@ -43,8 +43,8 @@ When you start to buy a new Raspberry Pi, I do recommend using an SD card with a
 <img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src=https://user-images.githubusercontent.com/18043807/53994990-9c470080-40e8-11e9-8cb9-208ffc056e68.jpeg>
 </p>
 
-## Step 3:
-#### Set up VNC server:
+## Step 3[4]:
+#### Set up [VNC server](https://www.raspberrypi.org/documentation/remote-access/vnc/) :
 Sometimes it is not convenient to work directly on the Raspberry Pi. Maybe you would like to work on it from another device by remote control.
 **VNC** is a graphical desktop sharing system that allows you to remotely control the desktop interface of one computer (running VNC Server) from another computer or mobile device (running VNC Viewer).
 
@@ -57,7 +57,10 @@ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 ```
 Now enable VNC Server. You can do this graphically or at the command line.
 
-
+##### Enabling VNC Server graphically: Ensure VNC is Enabled.
+<p align="center">
+<img width="677" alt="screen shot 2019-03-08 at 10 24 38 am" src="https://user-images.githubusercontent.com/18043807/54047692-90147f00-418c-11e9-83be-e485c5c788cd.png">
+</p>
 
 
 
@@ -93,3 +96,4 @@ Now enable VNC Server. You can do this graphically or at the command line.
 [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
 [2] Benefits of Water Conservation: https://www.thebalancesmb.com/conservation-efforts-why-should-we-save-water-3157877
 [3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
+[4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
