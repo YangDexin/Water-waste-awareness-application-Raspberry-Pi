@@ -174,13 +174,13 @@ while True:
 ###### Make sure light bulb works properly (include coding):
 After water flow sensor works well, we will start to add light bulb in the project.
 
-###### Accessories:
-We need the following:
+**Accessories:**
+**We need the following:**
 
-Breadboard
-Jumper Cable
-LED’s red-green Ø 5mm
-Resistors (2 * 220 Ω)
+1. Breadboard
+2.Jumper Cable
+3.LED’s red-green Ø 5mm
+4.Resistors (2 * 220 Ω)
 
 Then follow this diagram to connect Light bulb to Raspberry Pi:
 
