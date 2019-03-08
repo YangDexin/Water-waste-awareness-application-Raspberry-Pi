@@ -81,6 +81,8 @@ For testing, you can connect to Raspberry Pi by using your IP address to see whe
 
 ## Step 4:
 ###### Make sure water flow sensor works properly (include coding):
+Before we statr to build this project, you should understand the GPIO port form. 
+
 
 ## Step 5:
 ###### Make sure light bulb works properly (include coding):
