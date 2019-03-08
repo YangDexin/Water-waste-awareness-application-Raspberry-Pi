@@ -175,12 +175,11 @@ while True:
 After water flow sensor works well, we will start to add light bulb in the project.
 
 **Accessories:**
-**We need the following:**
 
 1. Breadboard
-2.Jumper Cable
-3.LED’s red-green Ø 5mm
-4.Resistors (2 * 220 Ω)
+2. Jumper Cable
+3. LED’s red-green Ø 5mm
+4. Resistors (2 * 220 Ω)
 
 Then follow this diagram to connect Light bulb to Raspberry Pi:
 
@@ -213,7 +212,9 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ###### Make sure LCD screen works properly (include coding):
 
 
+**Accessories:**
 
+1. Resistors 1K
 
 
 ## Step 7:
