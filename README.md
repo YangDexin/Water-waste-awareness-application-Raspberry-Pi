@@ -72,6 +72,10 @@ sudo ifconfig
 </p>
 
 For testing, you can connect to Raspberry Pi by using your IP address to see whether it works or not.
+<img width="577" alt="screen shot 2019-03-08 at 10 36 35 am" src="https://user-images.githubusercontent.com/18043807/54048276-2e551480-418e-11e9-80d8-3c027a1a3f12.png">
+
+##### If it works properly, just go ahead to [download VNC Server](https://www.realvnc.com/en/connect/download/vnc/).Then you can start to connect the VNC server.
+
 
 
 ## Step 4:
