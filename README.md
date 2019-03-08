@@ -75,8 +75,9 @@ For testing, you can connect to Raspberry Pi by using your IP address to see whe
 <img width="577" alt="screen shot 2019-03-08 at 10 36 35 am" src="https://user-images.githubusercontent.com/18043807/54048276-2e551480-418e-11e9-80d8-3c027a1a3f12.png">
 
 ##### If it works properly, just go ahead to [download VNC Server](https://www.realvnc.com/en/connect/download/vnc/).Then you can start to connect the VNC server.
-
-
+<p align="center">
+<img width="925" alt="screen shot 2019-03-08 at 10 40 43 am" src="https://user-images.githubusercontent.com/18043807/54048534-f4384280-418e-11e9-9035-1fe9754da139.png">
+</p>
 
 ## Step 4:
 ###### Make sure water flow sensor works properly (include coding):
