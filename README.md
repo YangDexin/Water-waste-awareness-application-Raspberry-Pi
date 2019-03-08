@@ -174,11 +174,20 @@ while True:
 ###### Make sure light bulb works properly (include coding):
 After water flow sensor works well, we will start to add light bulb in the project.
 
+###### Accessories:
+We need the following:
+
+Breadboard
+Jumper Cable
+LED’s red-green Ø 5mm
+Resistors (2 * 220 Ω)
+
 Then follow this diagram to connect Light bulb to Raspberry Pi:
 
 <p align="center">
 <img width="609" alt="Screen Shot 2019-03-08 at 1 22 20 PM" src="https://user-images.githubusercontent.com/18043807/54056542-3e2c2300-41a5-11e9-8d73-46e34b3fb41d.png">
 </p>
+
 **Coding part**:
 
 ```ruby
@@ -187,7 +196,6 @@ Then follow this diagram to connect Light bulb to Raspberry Pi:
 GPIO.setup(16,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
 ```
-
 
 ```ruby
 # If the total usage is over 5 Liter, the lighting color will be changed to red.
@@ -204,8 +212,12 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ## Step 6:
 ###### Make sure LCD screen works properly (include coding):
 
+
+
+
+
 ## Step 7:
-###### clearning up the data every minight (include coding):
+###### Clean up the data every midnight (include coding):
 
 
 ## Step 8:
@@ -226,3 +238,4 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ###### [3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
 ###### [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
 ###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
+###### [6] 16×2 LCD Module Control Using Python: https://www.raspberrypi-spy.co.uk/2012/07/16x2-lcd-module-control-using-python/
