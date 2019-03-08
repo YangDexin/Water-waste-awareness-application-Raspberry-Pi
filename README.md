@@ -72,7 +72,9 @@ sudo ifconfig
 </p>
 
 For testing, you can connect to Raspberry Pi by using your IP address to see whether it works or not.
+<p align="center">
 <img width="577" alt="screen shot 2019-03-08 at 10 36 35 am" src="https://user-images.githubusercontent.com/18043807/54048276-2e551480-418e-11e9-80d8-3c027a1a3f12.png">
+</p>
 
 ##### If it works properly, just go ahead to [download VNC Server](https://www.realvnc.com/en/connect/download/vnc/).Then you can start to connect the VNC server.
 <p align="center">
@@ -157,6 +159,11 @@ while True:
         writer.writerow(data)
 ```
 
+**Output:**
+<p align="center">
+<img width="353" alt="Screen Shot 2019-03-08 at 11 40 35 AM" src="https://user-images.githubusercontent.com/18043807/54052131-7b3de880-4198-11e9-8c63-1b81424a7811.png">
+</p>
+
 ## Step 5:
 ###### Make sure light bulb works properly (include coding):
 
@@ -179,9 +186,9 @@ while True:
 
 
 
-#Reference:
-[1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
-[2] Benefits of Water Conservation: https://www.thebalancesmb.com/conservation-efforts-why-should-we-save-water-3157877
-[3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
-[4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
-[5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
+# Reference:
+###### [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
+###### [2] Benefits of Water Conservation: https://www.thebalancesmb.com/conservation-efforts-why-should-we-save-water-3157877
+###### [3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
+###### [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
+###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
