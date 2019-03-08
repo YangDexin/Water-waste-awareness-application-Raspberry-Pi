@@ -80,11 +80,82 @@ For testing, you can connect to Raspberry Pi by using your IP address to see whe
 </p>
 
 ## Step 4:
-###### Make sure water flow sensor works properly (include coding):
+###### Make sure water flow sensor works properly (include coding[5]):
 Before we statr to build this project, you should know each of the 40-pins of the GPIO port. 
 <p align="center">
 <img width="925" alt="screen shot 2019-03-08 at 10 40 43 am" src="https://user-images.githubusercontent.com/18043807/54049429-52febb80-4191-11e9-9f67-edd5f0d62c6c.png">
 </p>
+
+**Coding part**:
+
+```ruby
+#!/usr/bin/python
+#Python program for FL-480 water flow sensor
+#Working range : 1-30 L/min
+#Water Pressure: <=1.75 Mpa
+#Import GPIO,time, sys and csv library
+import RPi.GPIO as GPIO
+import time, sys
+from datetime import datetime
+import csv
+
+#name csv file as "WaterFlowData"
+csvfile = "WaterFlowData.csv"
+
+#referring to the pins by the "Broadcom SOC channel" number
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+# set input pin as 27
+#GPIO.setup(inpt, GPIO.IN)
+inpt = 27
+GPIO.setup(inpt, GPIO.IN)
+
+rate_cnt =0                     #Revolution counts(r/min)
+tot_cnt=0                       #total count
+time_zero = 0.0                 #start up time
+time_start = 0.0                #keep measurement begin time and end time
+time_end = 0.0
+gpio_last =0                    #Was last state 0 or 1 or other
+pulses = 0                      #0-5 pulese
+constant= 1.79                  #The hall-effect flow sensor outputs approximately 1.79 pulses per second per flow rate
+
+time_zero = time.time()
+# set a loop and let it run forever
+while True:
+    rate_cnt = 0    #reset rate counter
+    pulses =0
+    time_start = time.time()  #keep start time
+    while pulses <= 5:          #6 pulses per revolution
+        gpio_cur = GPIO.input(inpt)
+        if gpio_cur != 0 and gpio_cur != gpio_last:
+            pulses +=1
+        gpio_last = gpio_cur   #keep last input
+        try:
+            None
+        except KeyboardInterrupt:
+            print('\nCTRL C -Exiting')
+            GPIO.cleanup()   #cleanup the output
+            print('Done')
+            sys.exit() #exit
+        
+    rate_cnt +=1            #Revolutions / time
+    tot_cnt +=1             #Total revolutions since program start
+    time_end = time.time()  #end od measurement time
+    
+    flowRate = round((rate_cnt * constant) / (time_end - time_start),2)  #flowRate(L/min)
+    totalMilliLitres = round((tot_cnt * constant) /100,2)        #total Millilitres
+    now_str = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ') #e.g. 2016-04-18T06:12:25.877Z
+    
+    print('\n',flowRate , 'Liters / min')
+    print('totalMilliLitres:',totalMilliLitres)
+    print('Current Time:' , '\t', now_str,'\n')
+
+    #store the water usage data in the local Raspberry pi 
+    data = [flowRate, totalMilliLitres]
+    with open(csvfile, "a") as output:
+        writer = csv.writer(output, delimiter = ",", lineterminator = '\n')
+        writer.writerow(data)
+```
 
 ## Step 5:
 ###### Make sure light bulb works properly (include coding):
@@ -113,3 +184,4 @@ Before we statr to build this project, you should know each of the 40-pins of th
 [2] Benefits of Water Conservation: https://www.thebalancesmb.com/conservation-efforts-why-should-we-save-water-3157877
 [3] Getting Started with Raspberry Pi 3: https://www.youtube.com/watch?v=juHoJYX86Dg
 [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
+[5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
