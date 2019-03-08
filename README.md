@@ -172,6 +172,34 @@ while True:
 
 ## Step 5:
 ###### Make sure light bulb works properly (include coding):
+After water flow sensor works well, we will start to add light bulb in the project.
+
+Then follow this diagram to connect Light bulb to Raspberry Pi:
+
+<p align="center">
+<img width="609" alt="Screen Shot 2019-03-08 at 1 22 20 PM" src="https://user-images.githubusercontent.com/18043807/54056542-3e2c2300-41a5-11e9-8d73-46e34b3fb41d.png">
+</p>
+**Coding part**:
+
+```ruby
+# set pin 16 to control Green light bulb
+# set pin 12 to control Red light bulb
+GPIO.setup(16,GPIO.OUT)
+GPIO.setup(12,GPIO.OUT)
+```
+
+
+```ruby
+# If the total usage is over 5 Liter, the lighting color will be changed to red.
+# you can set any number you want.
+if (round((tot_cnt * constant) / 100,2)) <= 5:
+                GPIO.output(16,GPIO.HIGH)
+                GPIO.output(12,GPIO.LOW)
+                    #time.sleep(1)
+            else:
+                GPIO.output(12,GPIO.HIGH)
+                GPIO.output(16,GPIO.LOW)
+```
 
 ## Step 6:
 ###### Make sure LCD screen works properly (include coding):
