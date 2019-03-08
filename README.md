@@ -90,7 +90,9 @@ Before we statr to build this project, you should know each of the 40-pins of th
 
 Then follow this diagram to connect your water flow sensor to Raspberry Pi:
 
-
+<p align="center">
+<img width="925" alt="screen shot 2019-03-08 at 10 40 43 am" src="https://user-images.githubusercontent.com/18043807/54054735-d2938700-419f-11e9-8bee-8c94f2ba633c.jpeg">
+</p>
 
 **Coding part**:
 
