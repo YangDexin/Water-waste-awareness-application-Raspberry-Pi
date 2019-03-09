@@ -86,7 +86,7 @@ For testing, you can connect to Raspberry Pi by using your IP address to see whe
 </p>
 
 ## Step 4:
-###### Make sure water flow sensor works properly (include coding[5]):
+###### Make sure water flow sensor works properly (include code[5]):
 Before we statr to build this project, you should know each of the 40-pins of the GPIO port. 
 <p align="center">
 <img width="925" alt="screen shot 2019-03-08 at 10 40 43 am" src="https://user-images.githubusercontent.com/18043807/54049429-52febb80-4191-11e9-9f67-edd5f0d62c6c.png">
@@ -175,7 +175,7 @@ while True:
 </p>
 
 ## Step 5:
-###### Make sure light bulb works properly (include coding):
+###### Make sure light bulb works properly (include code):
 After water flow sensor works well, we will start to add light bulb in the project.
 
 **Accessories:**
@@ -213,7 +213,7 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ```
 
 ## Step 6:
-###### Make sure LCD screen works properly (include coding):
+###### Make sure LCD screen works properly (include code):
 
 **Required Library:**
 In this example, I am going to install and use the library from Adafruit. It’s designed for Adafruit LCD boards but will also work with other brands as well. If your display board uses an HD44780 controller, then it should work with no issues at all.
@@ -269,7 +269,7 @@ lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
 ```
 
 ## Step 7:
-###### Clean up the data every midnight (include coding):
+###### Clean up the data every midnight (include code):
 The easy way to do this is to **[Scheduling tasks with Cron]**(https://www.raspberrypi.org/documentation/linux/usage/cron.md)[7]
 
 **Cron GUI**
@@ -313,7 +313,9 @@ For this project, we need to record the water usage data **per day**, it means w
 </p>
 
 ## Step 8:
-###### Sending data into Power BI dataset and create a real-time bashboard (include coding):
+###### Sending data into Power BI dataset and create a real-time bashboard (include code):
+1. Go to the [Power BI](https://powerbi.microsoft.com/en-us/) and create your own account.
+2. Sign to create a **streaming dataset** by using **API**
 
 
 
