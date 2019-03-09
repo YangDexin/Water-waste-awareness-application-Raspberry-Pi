@@ -372,6 +372,14 @@ import requests
 
     print("Data posted in Power BI API")
 ```
+7. Create a bashboard 
+<p align="center">
+<img width="942" alt="Screen Shot 2019-03-08 at 11 25 37 PM" src="https://user-images.githubusercontent.com/18043807/54067968-942bb580-41fb-11e9-85e1-5abfd235909d.png">
+</p>
+
+8. Add title and choose your dataset to create a streaming data diagram such as line chart, car, column chart and so on.
+
+
 
 # Reference:
 ###### [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
