@@ -307,6 +307,10 @@ It will reboot the Raspberry Pi every midnight.
 0 0 * * * sudo reboot
 ```
 
+For this project, we need to record the water usage data per day, it means we should restart and clean up the data every midnight. So reboot Raspberry Pi at midnight and re-run the program after rebooting.
+<p align="center">
+<img width="576" alt="Screen Shot 2019-03-08 at 10 41 19 PM" src="https://user-images.githubusercontent.com/18043807/54067319-680c3680-41f3-11e9-9e19-6f8ca7b17ebd.png">
+</p>
 
 ## Step 8:
 ###### Sending data into Power BI dataset and create a real-time bashboard (include coding):
