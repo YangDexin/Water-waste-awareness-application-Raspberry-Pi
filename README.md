@@ -215,7 +215,7 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ## Step 6:
 ###### Make sure LCD screen works properly (include coding):
 
-**Required Library:**[7]
+**Required Library:**
 In this example, I am going to install and use the library from Adafruit. It’s designed for Adafruit LCD boards but will also work with other brands as well. If your display board uses an HD44780 controller, then it should work with no issues at all.
 
 First, clone the required git directory to the Raspberry Pi by running the following command.
@@ -238,7 +238,11 @@ import Adafruit_CharLCD as LCD
 3. Breadboard
 4. Jumper Cable
 
+Then follow this diagram to connect 16 * 2 LCD to Raspberry Pi:
 
+<p align="center">
+<img width="669" alt="Screen Shot 2019-03-08 at 10 03 54 PM" src="https://user-images.githubusercontent.com/18043807/54066978-2af17580-41ee-11e9-8061-8008013be46e.png">
+</p>
 
 **Coding part**:
 It’s important that before you run any of these examples that you update the pin variables at the top of the file. If you followed my circuit the values below are the correct ones.
@@ -287,4 +291,4 @@ lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
 ###### [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
 ###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
 ###### [6] 16×2 LCD Module Control Using Python: https://www.raspberrypi-spy.co.uk/2012/07/16x2-lcd-module-control-using-python/
-###### [7] Raspberry Pi LCD: How to Setup a 16×2 LCD Display: https://pimylifeup.com/raspberry-pi-lcd-16x2/
+###### 
