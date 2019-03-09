@@ -323,6 +323,11 @@ For this project, we need to record the water usage data **per day**, it means w
 <img width="541" alt="Screen Shot 2019-03-08 at 10 56 07 PM" src="https://user-images.githubusercontent.com/18043807/54067529-dfdb6080-41f5-11e9-9a03-b715b2a6338b.png">
 </p>
 
+**Make sure the datatype of the values is correct and turn on the "Historic data analysis" because we want to store the data into dataset**
+<p align="center">
+<img width="552" alt="Screen Shot 2019-03-08 at 11 04 31 PM" src="https://user-images.githubusercontent.com/18043807/54067591-ac4d0600-41f6-11e9-8450-8c40d113dbf7.png">
+</p>
+
 
 
 
