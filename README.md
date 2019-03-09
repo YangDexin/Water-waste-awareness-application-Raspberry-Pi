@@ -241,7 +241,7 @@ import Adafruit_CharLCD as LCD
 Then follow this diagram to connect 16 * 2 LCD to Raspberry Pi:
 
 <p align="center">
-<img width="669" alt="Screen Shot 2019-03-08 at 10 03 54 PM" src="https://user-images.githubusercontent.com/18043807/54066978-2af17580-41ee-11e9-8061-8008013be46e.png">
+<img width="722" alt="Screen Shot 2019-03-08 at 10 26 33 PM" src="https://user-images.githubusercontent.com/18043807/54067149-56299400-41f1-11e9-8810-ef36c0029999.png">
 </p>
 
 **Coding part**:
