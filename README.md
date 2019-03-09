@@ -203,7 +203,7 @@ GPIO.setup(12,GPIO.OUT)
 ```ruby
 # If the total usage is over 5 Liter, the lighting color will be changed to red.
 # you can set any number you want.
-if (round((tot_cnt * constant) / 100,2)) <= 5:
+if (round((tot_cnt * constant) / 50,2)) <= 5:
                 GPIO.output(16,GPIO.HIGH)
                 GPIO.output(12,GPIO.LOW)
                     #time.sleep(1)
