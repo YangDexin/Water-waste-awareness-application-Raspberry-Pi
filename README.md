@@ -267,6 +267,10 @@ Then the LCD screen will display the total milliLitres:
 lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
             #lcd.message("Usage:"+str(totalMilliLitres)+"L"+"     ")
 ```
+**The output should look like this picture**
+<p align="center">
+<img width="319" alt="Screen Shot 2019-03-08 at 10 56 00 PM" src="https://user-images.githubusercontent.com/18043807/54067940-43b45800-41fb-11e9-88c4-b2dc832c5095.jpeg">
+</p>
 
 ## Step 7:
 ###### Clean up the data every midnight (include code):
