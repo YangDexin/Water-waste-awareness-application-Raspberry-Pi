@@ -188,7 +188,7 @@ After water flow sensor works well, we will start to add light bulb in the proje
 Then follow this diagram to connect Light bulb to Raspberry Pi:
 
 <p align="center">
-<img width="609" alt="Screen Shot 2019-03-08 at 1 22 20 PM" src="https://user-images.githubusercontent.com/18043807/54056542-3e2c2300-41a5-11e9-8d73-46e34b3fb41d.png">
+<img width="607" alt="Screen Shot 2019-03-08 at 5 29 53 PM" src="https://user-images.githubusercontent.com/18043807/54064307-e521b680-41c7-11e9-848c-2e95e301e427.png">
 </p>
 
 **Coding part**:
