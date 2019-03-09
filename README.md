@@ -331,6 +331,8 @@ For this project, we need to record the water usage data **per day**, it means w
 <img width="552" alt="Screen Shot 2019-03-08 at 11 04 31 PM" src="https://user-images.githubusercontent.com/18043807/54067591-ac4d0600-41f6-11e9-8450-8c40d113dbf7.png">
 </p>
 
+4. Copy the **Publish URL** becasue Power BI would provides an API tp publish the data.
+
 
 
 
