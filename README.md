@@ -215,13 +215,54 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ## Step 6:
 ###### Make sure LCD screen works properly (include coding):
 
+**Required Library:**[7]
+In this example, I am going to install and use the library from Adafruit. It’s designed for Adafruit LCD boards but will also work with other brands as well. If your display board uses an HD44780 controller, then it should work with no issues at all.
 
+First, clone the required git directory to the Raspberry Pi by running the following command.
+```ruby
+git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
+```
+Next change into the directory we just cloned and run the setup file.
+```ruby
+cd ./Adafruit_Python_CharLCD
+sudo python setup.py install
+```
+Once it’s finished installing you can now call the Adafruit library in any Python script on the Pi. To include the library just add the following line at the top of the python script. You can then initialize the board and perform actions with it.
+```ruby
+import Adafruit_CharLCD as LCD
+```
 **Accessories:**
 
 1. Resistors (10K Ω)
 2. 16×2 LCD with header pins
 3. Breadboard
 4. Jumper Cable
+
+
+
+**Coding part**:
+It’s important that before you run any of these examples that you update the pin variables at the top of the file. If you followed my circuit the values below are the correct ones.
+```ruby
+# Raspberry Pi pin setup
+lcd_rs = 7
+lcd_en = 8
+lcd_d4 = 25
+lcd_d5 = 24
+lcd_d6 = 23
+lcd_d7 = 18
+
+# Define LCD column and row size for 16x2 LCD.
+lcd_columns = 16
+lcd_rows = 2
+
+lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
+```
+
+Then the LCD screen will display the total milliLitres:
+```ruby
+lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
+            #lcd.message("Usage:"+str(totalMilliLitres)+"L"+"     ")
+```
 
 ## Step 7:
 ###### Clean up the data every midnight (include coding):
@@ -246,3 +287,4 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 ###### [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
 ###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
 ###### [6] 16×2 LCD Module Control Using Python: https://www.raspberrypi-spy.co.uk/2012/07/16x2-lcd-module-control-using-python/
+###### [7] Raspberry Pi LCD: How to Setup a 16×2 LCD Display: https://pimylifeup.com/raspberry-pi-lcd-16x2/
