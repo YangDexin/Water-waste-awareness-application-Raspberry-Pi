@@ -332,11 +332,42 @@ For this project, we need to record the water usage data **per day**, it means w
 </p>
 
 4. Copy the **Publish URL** becasue Power BI would provides an API tp publish the data.
+<p align="center">
+<img width="537" alt="Screen Shot 2019-03-08 at 11 13 20 PM" src="https://user-images.githubusercontent.com/18043807/54067697-08fcf080-41f8-11e9-8712-b2a127ec8ee7.png">
+</p>
 
 
+5. Install pandas and requests python library in your Raspberry Pi.
 
+```ruby
+sudo apt-get install python-pip
+sudo pip install pandas
+sudo pip install requests
+```
 
+6. Add the URL into the Python code.
 
+```ruby
+# import library.
+import pandas as pd
+import requests
+
+    # Add your own URL to publish data into your dataset.
+    REST_API_URL = 'Your own URL'
+    
+    HEADER = ["DateTime", "flowRate", "totalMilliLitres"]
+    data_row =[]
+    data_row.append(data)
+    print("Raw data - ", data_row)
+    data_df = pd.DataFrame(data_row, columns=HEADER)
+    data_json = bytes(data_df.to_json(orient='records').encode('utf-8'))
+    print("JSON dataset", data_json)
+     
+    # Post the data on the Power BI API
+    req = requests.post(REST_API_URL, data_json)
+
+    print("Data posted in Power BI API")
+```
 
 # Reference:
 ###### [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
