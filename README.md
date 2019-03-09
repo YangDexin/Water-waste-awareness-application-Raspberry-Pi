@@ -218,8 +218,10 @@ if (round((tot_cnt * constant) / 100,2)) <= 5:
 
 **Accessories:**
 
-1. Resistors 1K
-
+1. Resistors (10K Ω)
+2. 16×2 LCD with header pins
+3. Breadboard
+4. Jumper Cable
 
 ## Step 7:
 ###### Clean up the data every midnight (include coding):
