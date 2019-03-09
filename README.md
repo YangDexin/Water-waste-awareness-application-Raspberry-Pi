@@ -313,14 +313,15 @@ For this project, we need to record the water usage data **per day**, it means w
 </p>
 
 ## Step 8:
-###### Sending data into Power BI dataset and create a real-time bashboard (include code):
+###### Sending data into Power BI dataset and create a real-time bashboard (include code):[8]
 1. Go to the [Power BI](https://powerbi.microsoft.com/en-us/) and create your own account.
 2. Sign to create a **streaming dataset** by using **API**
 
+<p align="center">
 <img width="319" alt="Screen Shot 2019-03-08 at 10 56 00 PM" src="https://user-images.githubusercontent.com/18043807/54067523-d94ce900-41f5-11e9-86d5-1863f58ce1db.png">
 
-
-
+<img width="541" alt="Screen Shot 2019-03-08 at 10 56 07 PM" src="https://user-images.githubusercontent.com/18043807/54067529-dfdb6080-41f5-11e9-9a03-b715b2a6338b.png">
+</p>
 
 
 
@@ -335,3 +336,4 @@ For this project, we need to record the water usage data **per day**, it means w
 ###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
 ###### [6] 16×2 LCD Module Control Using Python: https://www.raspberrypi-spy.co.uk/2012/07/16x2-lcd-module-control-using-python/
 ###### [7] Scheduling tasks with Cron: https://www.raspberrypi.org/documentation/linux/usage/cron.md
+###### [8] Power BI Streaming Real Time Dashboards https://www.youtube.com/watch?v=dXpFciYOVsc&index=41&list=PLyD1XCIRA3gT0Yg9RrKhPE30hSEKTVZWL
