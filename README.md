@@ -383,9 +383,20 @@ import requests
 </p>
 
 # Congratulations!!! we have finished all of the steps, let's make it works.
+
+**Real-time Bashboard**
 <p align="center">
 <img width="524" alt="Screen Shot 2019-03-08 at 11 43 25 PM" src="https://user-images.githubusercontent.com/18043807/54067971-9db51d80-41fb-11e9-92a1-ce4d33b9fa27.gif">
 </p>
+
+**All data is in the dataset**
+<p align="center">
+<img width="583" alt="Screen Shot 2019-03-09 at 12 28 44 PM" src="https://user-images.githubusercontent.com/18043807/54077029-bf4bee80-4267-11e9-90b4-baaac703728d.png">
+</p>
+
+**Mobile version of Power BI**
+
+
 
 # Reference:
 ###### [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
