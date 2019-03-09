@@ -270,6 +270,42 @@ lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
 
 ## Step 7:
 ###### Clean up the data every midnight (include coding):
+The easy way to do this is to **[Scheduling tasks with Cron]**(https://www.raspberrypi.org/documentation/linux/usage/cron.md)[7]
+
+**Cron GUI**
+A graphical application for Cron is available by installing the **gnome-schedule** package:
+```ruby
+sudo apt-get install gnome-schedule
+```
+You can then launch the program Scheduled Tasks from the main menu.
+
+**Editing crontab**
+Run **crontab** with the **-e** flag to edit the cron table:
+```ruby
+crontab -e
+```
+**Add a scheduled task**
+The layout for a cron entry is made up of six components: minute, hour, day of month, month of year, day of week, and the command to be executed.
+```ruby
+# m h  dom mon dow   command
+```
+
+```ruby
+# * * * * *  command to execute
+# ┬ ┬ ┬ ┬ ┬
+# │ │ │ │ │
+# │ │ │ │ │
+# │ │ │ │ └───── day of week (0 - 7) (0 to 6 are Sunday to Saturday, or use names; 7 is Sunday, the same as 0)
+# │ │ │ └────────── month (1 - 12)
+# │ │ └─────────────── day of month (1 - 31)
+# │ └──────────────────── hour (0 - 23)
+# └───────────────────────── min (0 - 59)
+```
+For example:
+It will reboot the Raspberry Pi every midnight.
+```ruby
+0 0 * * * sudo reboot
+```
 
 
 ## Step 8:
@@ -291,4 +327,4 @@ lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
 ###### [4] VNC (Virtual Network Computing): https://www.raspberrypi.org/documentation/remote-access/vnc/
 ###### [5] RPi 23.1 - YF-S201 Water Flow Meter/Sensor, Polling, IMPULSE Trigge: https://www.youtube.com/watch?v=0fqoq1jWlts&t=345s
 ###### [6] 16×2 LCD Module Control Using Python: https://www.raspberrypi-spy.co.uk/2012/07/16x2-lcd-module-control-using-python/
-###### 
+###### [7] Scheduling tasks with Cron: https://www.raspberrypi.org/documentation/linux/usage/cron.md
