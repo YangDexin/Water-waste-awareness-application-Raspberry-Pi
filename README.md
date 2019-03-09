@@ -9,6 +9,10 @@ https://www.youtube.com/watch?v=paVt_WZJ0B8 [1]
 
 It minimizes the effects of drought and water shortages. Even though our need for fresh water sources is always increasing because of population and industry growth, the supply we have stays constant. Even though water eventually returns to Earth through the water cycle, it's not always returned to the same spot, or in the same quantity and quality. By reducing the amount of water we use, we can better protect against future drought years.It helps to preserve our environment. Water conservation requires forethought and effort, but every little bit helps. Don't think that what you do does not matter. We can all make changes in our lifestyles to reduce our water usage.[2]
 
+## How to use this project?
+Track you water usage for you kitchen, washroom, yard or office.
+Give the people a warning when the usage is too high.
+
 ## A basic design diagram:
 <p align="center">
 <img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src="https://user-images.githubusercontent.com/18043807/53911363-07baa080-400b-11e9-9e14-9e8d38eafb2f.png">
