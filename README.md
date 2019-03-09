@@ -317,6 +317,7 @@ For this project, we need to record the water usage data **per day**, it means w
 1. Go to the [Power BI](https://powerbi.microsoft.com/en-us/) and create your own account.
 2. Sign to create a **streaming dataset** by using **API**
 
+<img width="319" alt="Screen Shot 2019-03-08 at 10 56 00 PM" src="https://user-images.githubusercontent.com/18043807/54067523-d94ce900-41f5-11e9-86d5-1863f58ce1db.png">
 
 
 
