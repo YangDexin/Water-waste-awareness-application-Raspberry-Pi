@@ -378,6 +378,11 @@ import requests
 </p>
 
 8. Add title and choose your dataset to create a streaming data diagram such as line chart, car, column chart and so on.
+<p align="center">
+<img width="524" alt="Screen Shot 2019-03-08 at 11 43 25 PM" src="https://user-images.githubusercontent.com/18043807/54068021-58452000-41fc-11e9-80d1-2d0e32925e0b.png">
+</p>
+
+#Congratulations!!! we have finished all of the steps, let's make it works.
 
 
 
