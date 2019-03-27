@@ -397,7 +397,13 @@ import requests
 **Mobile version of Power BI**
 <p align="center">
 <img width="583" alt="Screen Shot 2019-03-09 at 12 28 44 PM" src="https://user-images.githubusercontent.com/18043807/54077032-c83cc000-4267-11e9-80d0-cc65c1fc00a6.png">
-</p>                                                               
+</p> 
+
+**After one week, one month or one year, you are able to create your own weekly, monthly or yearly report:**
+<p align="center">
+<img width="766" alt="Screen Shot 2019-03-26 at 8 02 08 PM" src="https://user-images.githubusercontent.com/18043807/55047480-2c020f80-5002-11e9-991d-37a54b762ea2.png">
+</p>    
+
 
 # Reference:
 ###### [1] Short Film For Save Water: https://www.youtube.com/watch?v=paVt_WZJ0B8
