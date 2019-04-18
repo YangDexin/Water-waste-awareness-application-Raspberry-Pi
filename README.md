@@ -17,6 +17,7 @@ Give the people a warning when the usage is too high.
 <p align="center">
 <img width="653" alt="screen shot 2019-03-05 at 5 43 26 pm" src="https://user-images.githubusercontent.com/18043807/53911363-07baa080-400b-11e9-9e14-9e8d38eafb2f.png">
 </p>
+
 ## Step 1:
 #### Get all the equimpent for Amazon:
 
