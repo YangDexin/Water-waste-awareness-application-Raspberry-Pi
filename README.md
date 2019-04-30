@@ -263,10 +263,10 @@ lcd_rows = 2
 lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
 ```
 
-Then the LCD screen will display the total milliLitres:
+Then the LCD screen will display the total Litres:
 ```ruby
-lcd.message("Total MilliLitres:\n"+str(totalMilliLitres)+"L\n")
-            #lcd.message("Usage:"+str(totalMilliLitres)+"L"+"     ")
+lcd.message("Total Litres:\n"+str(totalLitres)+"L\n")
+            #lcd.message("Usage:"+str(totalLitres)+"L"+"     ")
 ```
 **The output should look like this picture**
 <p align="center">
