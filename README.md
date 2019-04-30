@@ -360,7 +360,7 @@ import requests
     # Add your own URL to publish data into your dataset.
     REST_API_URL = 'Your own URL'
     
-    HEADER = ["DateTime", "flowRate", "totalMilliLitres"]
+    HEADER = ["DateTime", "flowRate", "totalLitres"]
     data_row =[]
     data_row.append(data)
     print("Raw data - ", data_row)
