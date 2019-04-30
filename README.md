@@ -333,7 +333,7 @@ For this project, we need to record the water usage data **per day**, it means w
 3. Enter a name for the streaming dataset, the name of the columns and data type.
 **Make sure the datatype of the values is correct and turn on the "Historic data analysis" because we want to store the data into dataset**
 <p align="center">
-<img width="552" alt="Screen Shot 2019-03-08 at 11 04 31 PM" src="https://user-images.githubusercontent.com/18043807/54067591-ac4d0600-41f6-11e9-8450-8c40d113dbf7.png">
+<img width="549" alt="Screen Shot 2019-04-30 at 4 37 13 PM" src="https://user-images.githubusercontent.com/18043807/57000011-97418300-6b66-11e9-8c35-569308e9acf5.png">
 </p>
 
 4. Copy the **Publish URL** becasue Power BI would provides an API tp publish the data.
