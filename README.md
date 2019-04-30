@@ -156,15 +156,15 @@ while True:
     time_end = time.time()  #end od measurement time
     
     flowRate = round((rate_cnt * constant) / (time_end - time_start),2)  #flowRate(L/min)
-    totalMilliLitres = round((tot_cnt * constant) /100,2)        #total Millilitres
+    totalLitres = round((tot_cnt * constant) /100,2)        #total Litres
     now_str = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ') #e.g. 2016-04-18T06:12:25.877Z
     
     print('\n',flowRate , 'Liters / min')
-    print('totalMilliLitres:',totalMilliLitres)
+    print('totalLitres:',totalLitres)
     print('Current Time:' , '\t', now_str,'\n')
 
     #store the water usage data in the local Raspberry pi 
-    data = [flowRate, totalMilliLitres]
+    data = [flowRate, totalLitres]
     with open(csvfile, "a") as output:
         writer = csv.writer(output, delimiter = ",", lineterminator = '\n')
         writer.writerow(data)
