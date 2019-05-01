@@ -387,7 +387,7 @@ import requests
 
 **Real-time Bashboard**
 <p align="center">
-<img width="524" alt="Screen Shot 2019-03-08 at 11 43 25 PM" src="https://user-images.githubusercontent.com/18043807/54067971-9db51d80-41fb-11e9-92a1-ce4d33b9fa27.gif">
+<img width="524" alt="Screen Shot 2019-03-08 at 11 43 25 PM" src="https://user-images.githubusercontent.com/18043807/57001034-6748ae80-6b6b-11e9-861f-caa45e39a11e.gif">
 </p>
 
 **All data is in the dataset**
