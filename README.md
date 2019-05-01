@@ -392,7 +392,7 @@ import requests
 
 **All data is in the dataset**
 <p align="center">
-<img width="583" alt="Screen Shot 2019-03-09 at 12 28 44 PM" src="https://user-images.githubusercontent.com/18043807/54077029-bf4bee80-4267-11e9-90b4-baaac703728d.png">
+<img width="583" alt="54077029-bf4bee80-4267-11e9-90b4-baaac703728d" src="https://user-images.githubusercontent.com/18043807/57000871-85fa7580-6b6a-11e9-98e2-52c93598d436.png">
 </p>
 
 **Mobile version of Power BI**
