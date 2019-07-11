@@ -402,7 +402,7 @@ import requests
 
 **After one week, one month or one year, you are able to create your own weekly, monthly or yearly report:**
 <p align="center">
-<img width="766" alt="Screen Shot 2019-03-26 at 8 02 08 PM" src="https://user-images.githubusercontent.com/18043807/55047480-2c020f80-5002-11e9-991d-37a54b762ea2.png">
+<img src="https://user-images.githubusercontent.com/18043807/61085686-bcb00000-a3e5-11e9-97e1-f72e2b49d443.PNG">
 </p>    
 
 
