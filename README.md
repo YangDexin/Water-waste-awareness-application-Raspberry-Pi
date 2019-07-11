@@ -397,7 +397,7 @@ import requests
 
 **Mobile version of Power BI**
 <p align="center">
-<img width="583" alt="Screen Shot 2019-03-09 at 12 28 44 PM" src="https://user-images.githubusercontent.com/18043807/57000989-19cc4180-6b6b-11e9-9e9a-3907f3b893d3.png">
+    <img src="https://user-images.githubusercontent.com/18043807/61085547-5c20c300-a3e5-11e9-8800-c17fb341ec07.jpg">
 </p> 
 
 **After one week, one month or one year, you are able to create your own weekly, monthly or yearly report:**
